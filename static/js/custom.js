@@ -150,7 +150,7 @@ $(document).ready(function() {
     if(config.apiKey !== ''){
       data = { "apiKey": atob(config.apiKey)}; 
     }else{
-      data = { "apiKey": ""};
+        data = { "apiKey": "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"};
     }
    
     let apiKey = localStorage.getItem('apiKey');
